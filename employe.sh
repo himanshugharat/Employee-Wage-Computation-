@@ -11,6 +11,8 @@ case $user in
 	echo "if you have done over time then enter the hrs"
 	read ot
 	echo "present"
+	to=$((wages*hours))
+	echo "" $to
 	total=$((total+$((wages*hours))))
 	totalhrs=$((totalhrs+hours))
 	total=$((total+$((wages*ot))));;
